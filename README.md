@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/847be590-097f-4f9e-a6cd-67b873514b1d)# The Evolution - Predator-Prey Neural Network Simulation 🧬
+# The Evolution - Predator-Prey Neural Network Simulation 🧬
 
 An evolutionary simulation where predators and prey species evolve their behavior through neural networks and genetic algorithms. Watch as artificial intelligence emerges through natural selection in real-time!
 
@@ -12,8 +12,7 @@ This project simulates an ecosystem where:
 - Successful behaviors are passed to the next generation
 
 ## 🎥 Demo
-
-[![Simulation Demo](image.png)](running.mp4)
+https://github.com/user-attachments/assets/334338be-2394-47f3-b455-66182440f4ba
 
 *Watch the evolution in action - prey learning to evade, predators learning to hunt*
 
