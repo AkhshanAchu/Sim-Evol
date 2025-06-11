@@ -58,8 +58,8 @@ random
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd evolution-simulation
+git clone "https://github.com/AkhshanAchu/Sim-Evol.git"
+cd Sim-Evol
 ```
 
 2. Install dependencies:
