@@ -142,7 +142,7 @@ The simulation tracks:
 - **Real-time Movement**: Smooth 30 FPS animation
 - **Population Display**: Live agent counts
 
-## 🧪 Experiments to Try
+## Experiments to Try
 
 1. **Modify Vision Range**: Change the `vision` parameter
 2. **Adjust Population Size**: Vary starting populations
