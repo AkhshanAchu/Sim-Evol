@@ -1,8 +1,8 @@
-# The Evolution - Predator-Prey Neural Network Simulation 🧬
+# The Evolution - Predator-Prey Neural Network Simulation 
 
 An evolutionary simulation where predators and prey species evolve their behavior through neural networks and genetic algorithms. Watch as artificial intelligence emerges through natural selection in real-time!
 
-## 🎯 Overview
+##  Overview
 
 This project simulates an ecosystem where:
 - **Green circles (Prey)** try to survive and reproduce
@@ -11,12 +11,12 @@ This project simulates an ecosystem where:
 - Evolution occurs through genetic algorithms with mutation
 - Successful behaviors are passed to the next generation
 
-## 🎥 Demo
+##  Demo
 https://github.com/user-attachments/assets/334338be-2394-47f3-b455-66182440f4ba
 
 *Watch the evolution in action - prey learning to evade, predators learning to hunt*
 
-## 🧠 How It Works
+##  How It Works
 
 ### Neural Network Architecture
 - **Input Layer**: 36 neurons (360° vision divided into 10° segments)
@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/334338be-2394-47f3-b455-66182440f4ba
 - **Predator Fitness**: Number of prey caught + survival time
 - **Generation Cycle**: 10 iterations before major evolution step
 
-## 🚀 Features
+##  Features
 
 - **Real-time Evolution**: Watch behaviors change over generations
 - **Neural Network Visualization**: 360° vision system for each agent
@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/334338be-2394-47f3-b455-66182440f4ba
 - **Collision Detection**: Sophisticated interaction system
 - **Wraparound World**: Toroidal world boundaries
 
-## 📋 Requirements
+##  Requirements
 
 ```txt
 pygame
@@ -53,7 +53,7 @@ sys
 random
 ```
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -71,13 +71,13 @@ pip install pygame numpy
 python evolution_simulation.py
 ```
 
-## 🎮 Controls
+##  Controls
 
 - **Close Window**: Click the X button to exit
 - **Automatic Evolution**: The simulation runs autonomously
 - **Console Output**: Monitor fitness scores and generation progress
 
-## 🧬 Simulation Parameters
+##  Simulation Parameters
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
@@ -88,7 +88,7 @@ python evolution_simulation.py
 | FPS | 30 | Simulation speed |
 | Mutation Rate | Variable | Dynamic mutation based on performance |
 
-## 📊 Evolution Mechanics
+##  Evolution Mechanics
 
 ### Prey Behavior Evolution
 - **Early Generations**: Random movement
@@ -106,7 +106,7 @@ python evolution_simulation.py
 - **Generation Timeout**: Predators die after 8 seconds without success
 - **Major Evolution**: Every 10 generations, top performers become new base population
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Neural Network Structure
 ```python
@@ -127,7 +127,7 @@ class nn:
 - **Physics**: Diagonal movement uses √2 speed compensation
 - **Boundary Handling**: Toroidal wraparound at screen edges
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 The simulation tracks:
 - Average fitness per generation
@@ -135,7 +135,7 @@ The simulation tracks:
 - Population survival rates
 - Evolution convergence patterns
 
-## 🎨 Visualization
+##  Visualization
 
 - **Green Circles**: Prey agents
 - **Red Circles**: Predator agents
@@ -150,7 +150,7 @@ The simulation tracks:
 4. **Speed Variations**: Give predators/prey different speeds
 5. **World Size**: Try different environment sizes
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 This simulation demonstrates:
 - **Emergent Behavior**: Complex strategies from simple rules
